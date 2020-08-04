@@ -1,0 +1,264 @@
+    .wrapper_parent{
+     text-align: center;
+     margin-top: 5px;
+    }
+
+    .wrapper_logo{
+    	width: 250px;
+      display: inline-block;
+      margin-left: 50px;
+      height: 110px;
+        /*position: absolute;*/
+    }
+	
+	/* The side navigation menu */
+	.sidenav {
+	  height: 100%; /* 100% Full-height */
+/* 	  width: 20%; /* 0 width - change this with JavaScript */ 
+	  position: fixed; /* Stay in place */
+	  z-index: 1; /* Stay on top */
+	  top: 0; /* Stay at the top */
+	  left: 0;
+	  /*background-color: #111;*/ /* Black*/
+	  overflow-x: hidden; /* Disable horizontal scroll */
+	  padding-top: 60px; /* Place content 60px from the top */
+	  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+	  /*gradient background*/
+	  background-image: linear-gradient(#3c87a8,#75b6d9);
+    background-repeat: no-repeat;
+    overflow-y: auto; 
+	}
+
+	/* The navigation menu links */
+	.sidenav{
+	  padding: 8px 8px 8px 32px;
+	  text-decoration: none;
+	  font-size: 25px;
+	  color: #818181;
+	  display: block;
+	  transition: 0.3s;
+	}
+  
+  h3>a{
+    padding: 8px 8px 8px 0px;
+	  text-decoration: none;
+	  font-size: 18px;
+	  color:#106f9c;
+	  display: inline-block;
+	  transition: 0.3s;
+    text-transform:uppercase;
+  }
+
+	a{
+	  padding: 8px 8px 8px 0px;
+	  text-decoration: none;
+	  font-size: 18px;
+	  color: #abacaf;
+	  display: inline-block;
+	  transition: 0.3s;
+	}
+
+  li>a{
+    padding: 8px 8px 8px 0px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: inline-block;
+    transition: 0.3s;
+  }
+
+
+  p>a{
+    padding: 0px 8px 8px 0px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #265ca5;
+    display: inline-block;
+    transition: 0.3s;
+    cursor: pointer;
+    width: 20px;
+  }
+
+	/* When you mouse over the navigation links, change their color */
+	.sidenav a:hover {
+	  color: #111;
+	}
+
+	/* Position and style the close button (top right corner) */
+	.sidenav .closebtn {
+	  position: absolute;
+	  top: 0;
+	  right: 25px;
+	  font-size: 36px;
+	  margin-left: 50px;
+	}
+
+	/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+	#main {
+	    margin-left:auto; 
+      margin-right:0;
+      padding: 0px;
+      width: 80%;
+/*       font-family: sans-serif, 'Helvetica', 'Arial'; */
+	}
+
+	/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+	@media screen and (max-height: 450px) {
+	  .sidenav {padding-top: 15px;}
+	  .sidenav a {font-size: 18px;}
+	}
+
+    .wrapper_div_menu{
+        margin:auto;
+        width: 100%;
+        border: 0px solid black;
+        padding: 10px;
+        display: inline;
+    }
+
+    h1{
+        font-size: 22px;
+        color: white;
+        margin-bottom: 2px;
+        text-align: left;
+        margin-left: 80px;
+/*         font-family: 'Roboto', Arial, Helvetica, sans-serif; */
+
+    }
+
+    h2{
+        margin-top: 0px;
+        font-size: 18px;
+        color: white;
+        text-align: left;
+        margin-left: 80px;
+/*         font-family: 'Roboto Condensed', sans-serif; */
+    }
+
+    h3{
+        margin-top: 0px;
+        font-size: 16px;
+        color:#106f9c;
+        text-align: left;
+        margin-left: 50px;
+/*         font-family: sans-serif; */
+        margin-top:  50px;
+        margin-left: 120px;
+    }
+
+    .grid-container{
+       display: grid;
+       grid-template-columns: auto auto auto auto;
+       margin-left: 120px;
+    }
+
+    .grid-item {
+          background-color: rgb(255, 255, 255);
+          border: 1px solid #fdfdfd;
+          padding-top: 10px;
+          padding-right: 5px;
+          padding-bottom: 5px;
+          padding-left: 5px;
+          font-size: 30px;
+          text-align: center;
+          width: 180px;
+          height: auto;
+          margin: 5px;
+          box-shadow: 0 0 4px 0px #b3b1b1;
+    }
+    
+    .center {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 100%;
+          height: 180px;
+          background-color: white;
+          border: 1px solid #dedddd;
+          padding-bottom: 0px;
+          margin-bottom: -10px;
+          object-fit: cover;
+        }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      /*background-color: #0071bc;*/
+      text-align: left;
+    }
+
+    li {
+      /*float: l;*/
+      /*float: left;*/
+      width: 100%;
+      margin: 5px;
+      /*background-color: #0071bc;*/
+      padding: 2px;
+    }
+
+    strong{
+      font-size: 18px;
+      margin-right: 5px;
+    }
+
+    p{
+      color: black;
+      margin-left: 5px;
+      font-size: 13px;
+      display: block;
+      text-align: left;
+    }
+
+    button{
+          margin-top:8px;
+          background-color: #0f6a92;
+          color: white;
+/*           float: left; */
+          width: 50px;
+          height: 30px;
+/*           margin-top: 12px; */
+          border: 1px solid #0f6a92;
+          padding: 5px;
+    }
+
+    input[type=submit] {
+      background-color: #0f6a92;
+      color: white;
+      float: left;
+      width: 50px;
+      height: 30px;
+      margin-top: 12px;
+      border: 1px solid #0f6a92;
+      border-radius:5%;
+    }
+
+    search-container{
+      margin-left: 120px;
+    }
+
+    input[type=text]{
+      padding: 10px;
+    }
+    
+    .top-bar{
+         width:100%;
+         height:45px;
+         background-image: linear-gradient(#3c87a8,#75b6d9);
+         background-repeat: no-repeat;
+         display:inline-block;
+         text-align:center;
+     }
+
+      html,body{
+        display:block;
+        overflow-x:hidden;
+        margin:0px;
+        font-family: Helvetica, sans-serif;
+      }
+
+      li>img{
+       float:right;
+      }
+
