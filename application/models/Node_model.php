@@ -260,7 +260,7 @@
       public function get_available_trucks($data){
         $this->db->where('truck_categories',$data['truck_type']);
         //$this->db->where('truck_size',$data['size']);
-        $query=$this->db->get('trucks');
+        $query = $this->db->get('trucks');
         return $query->result_array();
       }
 

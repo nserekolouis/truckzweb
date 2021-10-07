@@ -335,10 +335,11 @@
 //     }
     
     public function get_agent_registered_serviceproviders(){
-      $agent_id=$this->input->post('agent_id');
+      $agent_id = $this->input->post('agent_id');
       $data['owners'] = $this->Node_model->get_agent_list_owners($agent_id);
       $data['status_code'] = 1;
-      echo json_encode($data);
+      $data['agent_id'] = ($agent_id == null) ? "":$agent_id;
+      echo json_encode($this->input->post());
     }
     
     public function get_search_list_owners(){

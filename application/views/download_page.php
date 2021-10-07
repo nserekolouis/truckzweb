@@ -25,14 +25,14 @@
   </head>
   <body>
     <center><h3>Download</h3></center>
-    <center><img src="http://truckz.mywworld.com/static/images/icon_downloading.gif" alt="Download Apps" height="80" width="110" 
+    <center><img src="https://truckz.mywworld.com/static/images/icon_downloading.gif" alt="Download Apps" height="80" width="110" 
                  style="border-radius:48%;height:60px;width:60px;">
     </center>
     <div class="container">
        <div onclick="download_client_application()" class="apps">
          <div class="apps-inner">
            <div>
-             <img style="border-radius:10%;" src="http://truckz.mywworld.com/static/images/clientslogo.png" alt="Client" height="80" width="80">
+             <img style="border-radius:10%;" src="https://truckz.mywworld.com/static/images/clientslogo.png" alt="Client" height="80" width="80">
            </div>
            <div class="apps-label">
              <label>Client</label>
@@ -42,7 +42,7 @@
        <div onclick="download_driver_application()" class="apps">
         <div class="apps-inner">
           <div>
-            <img src="http://truckz.mywworld.com/static/images/driverlogo.png" alt="Driver" height="80" width="80">
+            <img src="https://truckz.mywworld.com/static/images/driverlogo.png" alt="Driver" height="80" width="80">
           </div>
           <div class="apps-label">
             <label>Driver</label>
@@ -52,7 +52,7 @@
        <div onclick="download_agent_application()" class="apps">
         <div class="apps-inner">
           <div>
-            <img src="http://truckz.mywworld.com/static/images/agentslogo.png" alt="Agent" height="80" width="80">
+            <img src="https://truckz.mywworld.com/static/images/agentslogo.png" alt="Agent" height="80" width="80">
           </div>
           <div class="apps-label">
             <label>Agent</label>
